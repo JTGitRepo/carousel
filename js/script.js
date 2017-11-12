@@ -7,6 +7,7 @@ $(window).resize(function(){
 
 	$('.container').animate({
 		scrollLeft: $('.focus').scrollLeft}, 00);
+		counter = 0;
 	// $('.container').animate({
 	// 	scrollLeft: $}, 1500);
 	// 	console.log(window.scrollX())
