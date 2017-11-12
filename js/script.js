@@ -24,7 +24,7 @@ $('#right').click(function() {
   }
 	switchClass()
 	$('.container').animate({
-		scrollLeft: '+=' + $('.tile').width() }, 1500);
+		scrollLeft: '+=' + $('.tile').width() }, 1000);
 		$(this).removeClass('proc')
 })
 
@@ -37,7 +37,7 @@ $('#left').click(function() {
 	switchClass()
 
 	$('.container').animate({
-		scrollLeft: '-=' + window.innerWidth }, 1500);
+		scrollLeft: '-=' + window.innerWidth }, 1000);
 })
 
 function switchClass() {
